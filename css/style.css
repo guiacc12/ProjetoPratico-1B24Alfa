@@ -1,0 +1,14 @@
+section{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo img{
+    max-width: 80px;
+}
+.menu ul li{
+    display: inline;
+}
+
+
+
