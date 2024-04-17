@@ -1,4 +1,4 @@
-section{
+header {
     width: 100%;
     max-width: 1800px;
     background-color: #ebdddd85;
@@ -47,19 +47,79 @@ section{
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-}
+  }
 
-.Produtos {
+main{
     background-color: #ebdddd85;
+    width: 100%;
+    max-width: 1800px;
+    
 }
 
 .item {
     display: inline-block;
-    width: 30%;
-    margin: 1%;
-    bor
+    width: 22%;
+    margin: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    text-align: center;
+    font-weight: 600; 
+    border: 2px solid rgb(214, 209, 209); 
+    padding: 2%;
+      
+}
+
+div.preco{
+    padding-bottom: 4%;
+    
+}
+
+.btn {
+    width: 50%;
+    background-color: #d30e0be0;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 90%;
+    display: inline-block;
+    cursor: pointer;    
 }
 
 .item img {
+    width: 98%;
+    padding: 1%;
+    
+}
+
+footer {
+    background-color: #d30e0be0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer label, footer input, footer textarea { 
     width: 100%;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+footer form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+.whats {
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    padding: 20px;
+    border-radius: 8px;
 }
