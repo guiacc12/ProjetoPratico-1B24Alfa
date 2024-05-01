@@ -4,19 +4,20 @@ header {
     background-color: #ebdddd85;
 }
 
-.logo img{
+.logo img {
     max-width: 80px;
-    margin-left: 50px; 
+    margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.menu ul li{
+.menu ul li {
     display: inline;
 }
 
-.logo, .menu {
-    display: inline-block;    
+.logo,
+.menu {
+    display: inline-block;
 }
 
 .menu ul li a {
@@ -28,7 +29,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu ul li a:hover { 
+.menu ul li a:hover {
     color: #000;
     border-bottom: 3px solid #000;
     padding-bottom: 15px;
@@ -39,7 +40,7 @@ header {
     bottom: 40px;
 }
 
-.slider{
+.slider {
     background-image: url(/img/slider.jpg);
     height: 780px;
     width: 100%;
@@ -47,13 +48,13 @@ header {
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-  }
+}
 
-main{
+main {
     background-color: #ebdddd85;
     width: 100%;
     max-width: 1800px;
-    
+
 }
 
 .item {
@@ -63,15 +64,15 @@ main{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
     text-align: center;
-    font-weight: 600; 
-    border: 2px solid rgb(214, 209, 209); 
+    font-weight: 600;
+    border: 2px solid rgb(214, 209, 209);
     padding: 2%;
-      
+
 }
 
-div.preco{
+div.preco {
     padding-bottom: 4%;
-    
+
 }
 
 .btn {
@@ -84,13 +85,18 @@ div.preco{
     padding: 10px;
     border-radius: 90%;
     display: inline-block;
-    cursor: pointer;    
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000;
+    transition-duration: 1s;
 }
 
 .item img {
     width: 98%;
     padding: 1%;
-    
+
 }
 
 footer {
@@ -101,19 +107,21 @@ footer {
     padding: 40px;
 }
 
-footer label, footer input, footer textarea { 
+footer label,
+footer input,
+footer textarea {
     width: 100%;
     padding: 10px;
     margin: 5px;
 
 }
 
-footer form{
+footer form {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
 }
- 
+
 .whats {
     background-color: green;
     color: white;
@@ -122,4 +130,35 @@ footer form{
     right: 150px;
     padding: 20px;
     border-radius: 8px;
+}
+
+.Sobre {
+    font-size: 22px;
+    line-height: 22px;
+
+}
+
+.Sobre p,
+.Sobre img {
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+
+
+}
+
+.Sobre h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Sobre p {
+    float: left;
+    margin-left: 15%;
+    text-align: justify;
+}
+
+.Sobre img {
+    border-radius: 30px;
 }
